@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Email Form Starter</title>
 </head>
 <body>
-    
+
     <main>
         <form>
           <div>
             <label for="name">Your Full Name: </label>
-            <input id="name" type="text" name="name">
+            <input id="name" type="text" name="name" required>
           </div>
 
           <div>
             <label for = "email">Your Email: </label>
-            <input id = "email" type ="email" name  = "email">
+            <input id = "email" type ="email" name = "email" required>
           </div>
 
           <div>
@@ -30,7 +31,7 @@
             ></textarea>
           </div>
 
-          <button type = "submit">Submit</button>
+          <button id = "submit" type = "submit">Submit</button>
         </form>      
     </main>
     
